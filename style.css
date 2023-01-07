@@ -8,7 +8,7 @@
 .box1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     align-items: center;
     background: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(128,252,195,0.5) 51%, rgba(240,110,254,0.5) 100%);
@@ -78,25 +78,37 @@ a{
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    background: white;
     margin: 50px;
+  }
+
+  .imgTaylor{
+    width: 70px;
+    height: 70px;
+    margin-left: 200px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 2rem;
 }
 
-.visa{
+.bell{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 1.5rem;
+}
+
+.box2{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align:left;
     align-items: center;
     background: white;
-    font-size: small;
-    font-weight: 100;
+    font-size: 1rem;
+    font-weight: 300;
     text-transform: uppercase;
     margin: 50px;
-    border: #f5B9FD solid;
-    width: 250px;
-    height: 150px;
-    border-radius: 20px;
-    background: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(128,252,195,0.5) 51%, rgba(240,110,254,0.5) 100%);
+    border: #f5B9FD;
 }
 
 .card{
@@ -107,6 +119,12 @@ a{
 h3, h2{
     margin-bottom: 6px;
     padding: 3px;
+    font-size: 1rem;
+}
+
+h6{
+    font-size: 1rem;
+    margin-right: 200px;
 }
 
 .saldoVisa{
@@ -118,16 +136,14 @@ h3, h2{
 
 .box3{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align:left;
     align-items: center;
-    background: white;
-    font-size: 0.6rem;
+    font-size: 1rem;
     font-weight: 300;
     text-transform:uppercase;
     margin: 50px;
-    width: 250px;
-    height: 150px;
 }
 
 input{
@@ -135,8 +151,17 @@ input{
     background: transparent;
     border: 2px #f5b9fd solid;
     border-radius: 10px;
-    margin-bottom: 10px; 
+    margin: 10px 80px; 
 }
+
+input:hover{
+    background: #f5B9FD;
+    transition: 0.35s;
+    border: 3px #CFFEE8 solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #f5B9FD;
+}
+
 
 
 /* style - letra e iconos*/
